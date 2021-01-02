@@ -47,7 +47,7 @@ import { Divider } from 'semantic-ui-react'
 import Contact from "../Contact.js"
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
-import NotesIcon from '@material-ui/icons/Notes';
+
 
 const useStyles = makeStyles(profilePageStyle);
 
@@ -110,7 +110,7 @@ export default function ProfilePage({ ...rest }) {
                   </Divider>
 
                   <Typical
-                    steps={['<Material UI> <Semantic UI> <Bootsrap> <Reactstrap> <Ant>', 1000]}
+                    steps={['<Material UI> <Semantic UI> <Bootstrap> <Ant Design> <HTML> <CSS>', 1000]}
                     loop={Infinity}
                     wrapper="h4"
                   />
@@ -151,7 +151,18 @@ export default function ProfilePage({ ...rest }) {
 
                   >
                     <Button tiny>
-                      <NotesIcon />
+                      Medium
+                    </Button>
+
+                  </a>
+
+                  <a
+                    href="https://docs.google.com/document/d/1VaPLU8FQUcrSL01pKCf-CbeVWiE6rfOyjs_IU2Zgl2U/edit?usp=sharing"
+                    target="_blank"
+
+                  >
+                    <Button tiny>
+                      Resume
                     </Button>
 
                   </a>
@@ -189,9 +200,7 @@ export default function ProfilePage({ ...rest }) {
           </GridContainer>
           <div className={classNames(classes.description, classes.textCenter)}>
             <h4>
-              I'm a full stack software engineer. Never stop learning and getting new skills every single day.
-              I feel great as long as I could help people making their businesses and daily work eaisier and effective by creating new technologies.
-              As other software engineers, I press my keyboards until I could make something that amazes me. Please feel free to contact, I am here to help and contribute to your ideas and intentions. Thank you
+            I'm a full-stack software engineer. Never stop learning and getting new skills every single day. I feel great as long as I could help people making their businesses and daily work easier and effective by creating new technologies. Like other software engineers, I press my keyboards until I could make something that amazes me. Please feel free to contact me, I am here to help and contribute to your ideas and intentions. Thank you 
             {" "}
             </h4>
           </div>
@@ -229,6 +238,13 @@ export default function ProfilePage({ ...rest }) {
 
                                   />
                                   <a
+                                    href="https://b-project-a2a2c.web.app/"
+                                    target="_blank"
+
+                                  >
+                                    <Button>Website</Button>
+                                  </a>
+                                  <a
                                     href="https://youtu.be/Mn1PMwe5VYo"
                                     target="_blank"
 
@@ -251,7 +267,7 @@ export default function ProfilePage({ ...rest }) {
                                     Salam(GroupVideoChat)
                                   </h4>
                                   <Muted>
-                                    <p>React, Firebase, Node.js, Express, Socket.io, WebRTC, Material UI, Semantic UI, Bootsrap, Reactsrap</p>
+                                    <p>React, Firebase, Node.js, Express, Socket.IO, Material UI, Semantic UI, Bootstrap</p>
                                   </Muted>
                                   <p className={classes.description}>
                                     Salam Web App offers realtime social-networking between your teams, friends and co-workers,
@@ -304,10 +320,16 @@ export default function ProfilePage({ ...rest }) {
                                     FIFA CLIApp
                                   </h4>
                                   <Muted>
-                                    <p>Ruby, Active Record ORM, SQLITE3</p>
+                                    <p>Ruby, ActiveRecord(ORM), SQLITE3</p>
                                   </Muted>
                                   <p className={classes.description}>
-                                    CLIApp with full-crud functionality runs on CLI
+                                  CLIApp with full CRUD functionality runs on CLI and built with vanilla Ruby
+                                  <br />
+                                  * Created application using ActiveRecord(ORM) and SQLITE3
+                                  <br/>
+                                  * Constructed full CRUD actions for users utilizing FIFA API
+                                  <br/>
+                                   * Used RubyGems to distribute more  functionality to CLIApp
                                   </p>
                                 </CardBody>
                               </GridItem>
@@ -358,7 +380,7 @@ export default function ProfilePage({ ...rest }) {
                                     Active
                                   </h4>
                                   <Muted>
-                                    <p>Ruby on Rails, SQLITE3, HTML5, CSS3</p>
+                                    <p>Ruby on Rails, HTML5, CSS3</p>
                                   </Muted>
                                   <p className={classes.description}>
                                   active. was inspired by its creators who believe in the importance of an agile, athletic lifestyle. With a series of features, including: Assessment, where one is able to gain knowledge regarding an individual's overall health, as well as WorkoutLogs/RecoveryLogs, which enables one to keep track of movement from a selection of our comprehensive list of options, a user has the ability to attain their health goals, regardless of experience level.
@@ -400,7 +422,7 @@ export default function ProfilePage({ ...rest }) {
                                     <h6>BeatPete</h6>
                                   </Muted>
                                   <p className={classes.description}>
-                                    Beat Maker
+                                    Android/IOS mobile app
                                   </p>
                                 </CardBody>
                               </GridItem>
