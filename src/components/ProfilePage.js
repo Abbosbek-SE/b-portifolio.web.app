@@ -30,7 +30,7 @@ import muslim from "./assets/muslim.jpg";
 
 
 import bo from "./assets/c.jpg";
-
+import ha from "./assets/ha.png";
 import a from "./assets/a.jpg";
 import sa from "./assets/sa.png";
 import avatar from "./assets/avatar.jpg";
@@ -157,7 +157,7 @@ export default function ProfilePage({ ...rest }) {
                   </a>
 
                   <a
-                    href="https://docs.google.com/document/d/1VaPLU8FQUcrSL01pKCf-CbeVWiE6rfOyjs_IU2Zgl2U/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1TPhRwwcjpv8zEfPgl9adMIs_Z1nhuUEXyDxAkCOtk0s/edit?usp=sharing"
                     target="_blank"
 
                   >
@@ -465,7 +465,25 @@ export default function ProfilePage({ ...rest }) {
                           src={bo}
                           className={navImageClasses}
                         />
-                      </GridItem>  
+
+                    
+                      </GridItem>
+
+                      <GridItem xs={12} sm={12} md={3}>
+                      <a
+                                    href="https://drive.google.com/file/d/18JBcJwbyup05BxKhTZEAKiPjP9E2j2KA/view?usp=sharing"
+                                    target="_blank"
+
+                                  >
+                                    <Button>Flatiron School</Button>
+                                  </a>
+                        <img
+                          alt="..."
+                          src={ha}
+                          className={navImageClasses}
+                        />
+                      </GridItem>
+                        
                     </GridContainer>
                   )
                 },
