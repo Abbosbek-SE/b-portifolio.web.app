@@ -83,37 +83,58 @@ export default function ProfilePage({ ...rest }) {
 
 
                   <Divider horizontal>
-                    <h3>FULL - STACK  MOBILE / WEB  DEVELOPER</h3>
+                   
                   </Divider>
+                  <Divider horizontal>
+                   
+                   </Divider>
+                   <Divider horizontal>
+                   
+                   </Divider>
 
                   <Divider horizontal>
-                    <h5>Front End && +</h5>
+                    <h5>Frontend</h5>
                   </Divider>
 
                   <Typical
-                    steps={['<Javascript> <React> <React Native> <Redux> <CLI> <GIT>', 1000]}
+                    steps={['JavaScript/React/ReactNative/HTML/CSS/Figma', 1000]}
                     loop={Infinity}
                     wrapper="h4"
                   />
+
+<                 Divider horizontal>
+                   
+                   </Divider>
                   <Divider horizontal>
-                    <h5>Backend && +</h5>
+                    <h5>Backend</h5>
                   </Divider>
 
                   <Typical
-                    steps={['<Ruby> <Ruby on Rails> <Firebase> <Sinatra> <SQL>', 1000]}
+                    steps={['Ruby/Ruby on Rails/Python/SQL/AWS/Node.js/Express.js/Git', 1000]}
                     loop={Infinity}
                     wrapper="h4"
                   />
 
                   <Divider horizontal>
-                    <h5>Design</h5>
+                   
+                   </Divider>
+
+                  <Divider horizontal>
+                    <h5>Web3</h5>
                   </Divider>
 
                   <Typical
-                    steps={['<Material UI> <Semantic UI> <Bootstrap> <Ant Design> <HTML> <CSS>', 1000]}
+                    steps={['DApps/Smart Contracts/Solidity/Ethereum/Blockchain', 1000]}
                     loop={Infinity}
                     wrapper="h4"
                   />
+
+                    <Divider horizontal>
+                   
+                   </Divider>
+                   <Divider horizontal>
+                   
+                   </Divider>
 
                   <a
                     href="https://github.com/Abbosbek-SE"
@@ -131,33 +152,9 @@ export default function ProfilePage({ ...rest }) {
                     </Button>
                   </a>
 
-                  <a
-                    href="https://www.linkedin.com/in/abbosbek-muydinboev-7785b11b2"
-                    target="_blank"
-
-                  >
-                    <Button
-                      justIcon
-                      simple
-                      color="linkedin"
-                      className={classes.margin5}
-                    >
-                      <LinkedInIcon />
-                    </Button>
-                  </a>
-                  <a
-                    href="https://medium.com/me/stories/public"
-                    target="_blank"
-
-                  >
-                    <Button tiny>
-                      Medium
-                    </Button>
-
-                  </a>
 
                   <a
-                    href="https://docs.google.com/document/d/1TPhRwwcjpv8zEfPgl9adMIs_Z1nhuUEXyDxAkCOtk0s/edit?usp=sharing"
+                    href="https://drive.google.com/file/d/1R00v5N0vp5Qt5quh5Dkc8pkjL5-TQkaE/view?usp=sharing"
                     target="_blank"
 
                   >
@@ -172,7 +169,7 @@ export default function ProfilePage({ ...rest }) {
               <div className={classes.follow}>
                 <Tooltip
                   id="tooltip-top"
-                  title="Add me on Linked In"
+                  title="Add me on LinkedIn"
                   placement="top"
                   classes={{ tooltip: classes.tooltip }}
                 >
@@ -193,17 +190,12 @@ export default function ProfilePage({ ...rest }) {
                 </Tooltip>
               </div>
               <Divider horizontal>
-                <h4>Abbosbek Muydinboev</h4>
+               
               </Divider>
 
             </GridItem>
           </GridContainer>
-          <div className={classNames(classes.description, classes.textCenter)}>
-            <h4>
-            I'm a full-stack software engineer. Never stop learning and getting new skills every single day. I feel great as long as I could help people making their businesses and daily work easier and effective by creating new technologies. Like other software engineers, I press my keyboards until I could make something that amazes me. Please feel free to contact me, I am here to help and contribute to your ideas and intentions. Thank you 
-            {" "}
-            </h4>
-          </div>
+          
           <div className={classes.profileTabs}>
             <NavPills
               alignCenter
@@ -374,6 +366,7 @@ export default function ProfilePage({ ...rest }) {
                                   </a>
                                 </CardHeader>
                               </GridItem>
+                              
                               <GridItem xs={12} sm={12} md={7}>
                                 <CardBody plain>
                                   <h4 className={classes.cardTitle}>
@@ -411,18 +404,27 @@ export default function ProfilePage({ ...rest }) {
                                       opacity: "1"
                                     }}
                                   />
+                                  <a
+                                    href="https://youtu.be/ndVnQOLn5aE?si=TMkGkXBToEI6EDhW"
+                                    target="_blank"
+
+                                  >
+                                    <Button>Demo</Button>
+                                  </a>
+                                 
                                 </CardHeader>
                               </GridItem>
+                              
                               <GridItem xs={12} sm={12} md={7}>
                                 <CardBody plain>
                                   <h4 className={classes.cardTitle}>
-                                    Upcoming Project
+                                    Niyba
                                   </h4>
                                   <Muted>
-                                    <h6>BeatPete</h6>
+                                    <h6>Afterhour Food Delivery App | React, React Native, Node.js, Java, MongoDB, Docker, SQL, AWS</h6>
                                   </Muted>
                                   <p className={classes.description}>
-                                    Android/IOS mobile app
+                                    Android/IOS mobile app/WebApp
                                   </p>
                                 </CardBody>
                               </GridItem>
@@ -434,18 +436,18 @@ export default function ProfilePage({ ...rest }) {
                   )
                 },
                 {
-                  tabButton: "Accomplishments",
+                  tabButton: "Certificates",
                   tabIcon: SchoolIcon,
                   tabContent: (
                     <GridContainer justify="center">
                       
                       <GridItem xs={12} sm={12} md={3}>
                       <a
-                                    href="https://drive.google.com/file/d/1vMQOnAS89ZMbQRZ-NVhXWsyVgR4D5FMV/view?usp=sharing"
+                                    href="https://www.udemy.com/certificate/UC-b604bf5e-7ffd-4857-8a70-c56663bc4a60/"
                                     target="_blank"
 
                                   >
-                                    <Button>University of Westminster</Button>
+                                    <Button>Udemy</Button>
                                   </a>
                         <img
                           alt="..."
@@ -454,11 +456,11 @@ export default function ProfilePage({ ...rest }) {
                 
                         />
                         <a
-                                    href="https://drive.google.com/file/d/1iKBp57QYngTllU_LaSGhUNeuJ1Lxl7Mp/view?usp=sharing"
+                                    href="https://certificate.algoexpert.io/BlockchainExpert%20Certificate%20BCE-6c0d5e6025"
                                     target="_blank"
 
                                   >
-                                    <Button>Yangiobod College</Button>
+                                    <Button>AlgoExpert.io</Button>
                                   </a>
                         <img
                           alt="..."
@@ -471,7 +473,7 @@ export default function ProfilePage({ ...rest }) {
 
                       <GridItem xs={12} sm={12} md={3}>
                       <a
-                                    href="https://drive.google.com/file/d/18JBcJwbyup05BxKhTZEAKiPjP9E2j2KA/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/13DeRJqlR3lsUKprbECSc5xxPPHoUvjG7/view?usp=sharing"
                                     target="_blank"
 
                                   >
@@ -512,11 +514,11 @@ export default function ProfilePage({ ...rest }) {
                                   color="warning"
                                   className={classes.badge}
                                 >
-                                  January 2021
+                                  {/* January 2021 */}
                                 </Badge>
                                 <a href="#pablo">
                                   <h2 className={classes.cardTitleWhite}>
-                                    Data Structures and Algorithms
+                                    {/* Data Structures and Algorithms */}
                                   </h2>
                                 </a>
                               </CardBody>
@@ -531,11 +533,11 @@ export default function ProfilePage({ ...rest }) {
                             >
                               <CardBody background className={classes.cardBody}>
                                 <Badge color="info" className={classes.badge}>
-                                  January 2021
+                                  {/* January 2021 */}
                                 </Badge>
                                 <a href="#pablo">
                                   <h2 className={classes.cardTitleWhite}>
-                                    SQL
+                                    {/* SQL */}
                                   </h2>
                                 </a>
                               </CardBody>
@@ -550,11 +552,11 @@ export default function ProfilePage({ ...rest }) {
                             >
                               <CardBody background className={classes.cardBody}>
                                 <Badge color="danger" className={classes.badge}>
-                                  January 2021
+                                  {/* January 2021 */}
                                 </Badge>
                                 <a href="#pablo">
                                   <h2 className={classes.cardTitleWhite}>
-                                    React Native
+                                    {/* React Native */}
                                   </h2>
                                 </a>
                               </CardBody>
@@ -572,11 +574,11 @@ export default function ProfilePage({ ...rest }) {
                                   color="success"
                                   className={classes.badge}
                                 >
-                                  January 2021
+                                  {/* January 2021 */}
                                 </Badge>
                                 <a href="#pablo">
                                   <h2 className={classes.cardTitleWhite}>
-                                    Firebase
+                                    {/* Firebase */}
                                   </h2>
                                 </a>
                               </CardBody>
@@ -608,7 +610,7 @@ export default function ProfilePage({ ...rest }) {
                         <hr />
                         <h4 className={classes.title}>About this work</h4>
                         <p className={classes.description}>
-                          Currently, I removed all blogs that I have already published. I am upgrading them :)
+                          Currently, I removed all blogs that I had already published. I am upgrading them :)
                         </p>
                         <hr />
                         <h4 className={classes.title}>Focus</h4>
@@ -628,20 +630,17 @@ export default function ProfilePage({ ...rest }) {
         content={
           <div>
             <Divider horizontal>
-              Work with Me
+              Contact
             </Divider>
             <Contact />
             <Divider horizontal>
-              Special Inquiry Contact
+              
             </Divider>
-            <Button>
-              <PhoneIcon />
-            + 1 628 502 91 63
-            </Button>
-            <Button>
+           
+            {/* <Button>
               <EmailIcon />
-            muydinboevabbosbek@gmail.com
-            </Button>
+            amuygplex@gmail.com
+            </Button> */}
             <Divider horizontal>
             </Divider>
           </div>
